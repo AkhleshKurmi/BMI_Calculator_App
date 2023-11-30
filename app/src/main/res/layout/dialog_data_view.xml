@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#EFD2F1"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    android:outlineAmbientShadowColor="@color/black"
+    android:outlineSpotShadowColor="@color/black">
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:textSize="20dp"
+        android:id="@+id/tvdetails"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tvdetails"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="#F63030"
+        android:id="@+id/btn_cancle"
+        android:src="@drawable/baseline_cancel_presentation_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Mobile"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Height"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_Mobile"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Weight"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_Height"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_BmiValue"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_Weight"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_BmiStatus"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_BmiValue"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

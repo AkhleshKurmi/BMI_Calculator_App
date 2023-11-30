@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/about_bmi"
+        android:title="About BMI" />
+    <item
+        android:id="@+id/bmi_chart"
+        android:title="BMI Chart" />
+    <item
+        android:id="@+id/about_developer"
+        android:title="About Developer" />
+    <item
+        android:id="@+id/contact_us"
+        android:title="Contact Us" />
+    <item
+        android:id="@+id/history"
+        android:title="History"/>
+
+</menu>
